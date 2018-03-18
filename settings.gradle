@@ -1,0 +1,5 @@
+rootProject.name = 'springboot-multi-module-interaction'
+include 'common'
+include 'search'
+include 'pricing'
+
