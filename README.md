@@ -112,7 +112,7 @@ public static final String PRICING_URL_TAX_ID = "http://localhost:8200/pricing/t
     }
 ```
 NOTE: Here pricing call is a simple GET call so we need not add any `headers` or `entities` etc.
-- Build & Run: ./gradlew build && ./gradlew :search:bootRun :pricing:bootRun
+- Build & Run: `./gradlew build && ./gradlew :search:bootRun :pricing:bootRun`
 - Check, http://localhost:8100/search/productwithtax/1
 - Check, http://localhost:8100/search/productwithtaxanother/2
 
